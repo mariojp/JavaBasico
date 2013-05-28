@@ -27,30 +27,31 @@ public class ServletCicloVida extends HttpServlet {
 	 * @see Servlet#init(ServletConfig)
 	 */
 	public void init(ServletConfig config) throws ServletException {
-		// TODO Auto-generated method stub
+		System.out.println("init(...)");
+		super.init(config);
 	}
 
 	/**
 	 * @see Servlet#destroy()
 	 */
 	public void destroy() {
-		// TODO Auto-generated method stub
+		System.out.println("destroy()");
 	}
 
 	/**
 	 * @see Servlet#getServletConfig()
 	 */
 	public ServletConfig getServletConfig() {
-		// TODO Auto-generated method stub
-		return null;
+		System.out.println("getServletConfig()");
+		return super.getServletConfig();
 	}
 
 	/**
 	 * @see Servlet#getServletInfo()
 	 */
 	public String getServletInfo() {
-		// TODO Auto-generated method stub
-		return null; 
+		System.out.println("getServletInfo()");
+		return super.getServletInfo(); 
 	}
 
 	/**
